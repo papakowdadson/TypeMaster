@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="style/index.css">
 
   <title>Frontend Mentor | Typemaster pre-launch landing page</title>
 </head>
 <body>
-  <nav class="nav_Container">
-    <img src="assets/shared/logo.svg" alt="logo" >
-    <button>
+  <nav class="nav_container">
+    <img class="logo" src="assets/shared/logo.svg" alt="logo" >
+    <button class="btn nav_button">
       Pre-order now
     </button>
   </nav>
@@ -26,16 +26,16 @@
       <div class="content">
 
         <div class="upper">
-          <div>
-            <h1>
-              Typemaster keyboard
+          <div class="type_container">
+            <h1 class="type_header_text">
+              Typemaster Keyboard
             </h1>
             <p>
               Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
                mechanical typing experience.
             </p>
-            <div>
-              <button type="submit">
+            <div class="type_order_row">
+              <button class="upper_button" type="submit">
                 Pre-order now
               </button>
               <p>
@@ -44,24 +44,20 @@
             </div>
           </div>
           
-          <div>
-
+          <div class="type_keyboard">
           </div>
-        </div>
-        
 
-          
-          
+        </div>
           
          <div class="middle">
-            <div>
+            <div class="middle_first_container">
 
             </div>
-            <div >
+            <div class="middle_second_container">
 
             </div>
-            <div>
-             <h1>              
+            <div class="middle_last_container" >
+             <h1 class="middle_header_text">              
               Mechanical wireless keyboard
              </h1>
              <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
@@ -72,8 +68,10 @@
           <div class="lower">
 
           <div class="lower_item">
-            <img src="assets/shared/icon-compatible.svg" alt="compatible icon" srcset="">
-            <h1>
+            <div class="lower_icon_container">
+              <img class="lower_icon" src="assets/shared/icon-compatible.svg" alt="compatible icon" srcset="">
+            </div>
+            <h1 class="lower_header_text">
               Highly compatible
             </h1>
             <p> 
@@ -83,9 +81,11 @@
           </div>
 
           <div class="lower_item">
-            <img src="assets/shared/icon-bluetooth.svg" alt="bluetooth icon" srcset="">
-            <h1>
-              Wireless with bluetooth..
+            <div class="lower_icon_container">            
+              <img class="lower_icon" src="assets/shared/icon-bluetooth.svg" alt="bluetooth icon" >
+            </div>
+            <h1 class="lower_header_text">
+              Wireless with bluetooth
             </h1>
             <p> 
               Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. 
@@ -94,8 +94,10 @@
           </div>
 
           <div class="lower_item">
-            <img src="assets/shared/icon-battery.svg" alt="icon battery">
-            <h1>
+            <div class="lower_icon_container">
+                <img class="lower_icon" src="assets/shared/icon-battery.svg" alt="icon battery">
+            </div>
+            <h1 class="lower_header_text">
                 High capacity battery
 
             </h1>
@@ -106,8 +108,10 @@
           </div>
 
           <div class="lower_item">
-            <img src="assets/shared/icon-light.svg" alt="light icon">
-            <h1>
+            <div class="lower_icon_container">
+              <img class="lower_icon" src="assets/shared/icon-light.svg" alt="light icon">
+            </div>
+            <h1 class="lower_header_text">
               RGB backlit modes
 
             </h1>
@@ -128,7 +132,7 @@
   </Main>
   
   <footer class="footer_container">  
-    Typemaster 2021 | All Rights Reserved
+    <p>Typemaster 2021 | All Rights Reserved</p> 
   </footer>
 </body>
 </html>

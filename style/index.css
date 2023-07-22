@@ -1,15 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
 
+body{
+    margin: 0px;
+}
+button{
+    height: 58px;
+    width: 175px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+.nav_button:hover{
+    background-color:#162542 ;
+    color:#FFFFFF ;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-left:155px ;
+    margin-right:155px ;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+   
+}
+.layout{
+    display: grid;
+    grid-template-columns: 150px 2fr 150px;
+    
+
+}
+.left_tag{
+background-color:#E8EFF2 ;
+width: 127px;
+height: 236px;
+margin-right: auto;
+margin-top: 730px;
+border-radius:0px 15px 15px 0px ;
+}
+.right_tag{
+    background-color:#E8EFF2 ;
+    width: 127px;
+    height: 236px;
+    margin-left:auto ;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.type_container{
+    width: 445px;
+    height: 312px;
+}
+.type_header_text{
+    font-size: 56px;
+}
+.type_order_row{
+    display: flex;
+    gap: 10px;
+}
+.type_keyboard{
+    width: 540px;
+    height: 480px;
+    border-radius:15px;
+    background-image: url('../assets/desktop/image-keyboard.jpg');
+    background-size: cover;
+}
+.upper_button{
+    background-color:#F16718 ;
+}
+.upper_button:hover{
+    background-color:#FF9B62 ;
+}
+
+.middle{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.middle_first_container{
+    width: 225px;
+    height: 480px;
+    border-radius:15px;
+    background-image: url('../assets/desktop/image-phone-and-keyboard.jpg');
+    background-size: cover;
+    background-color: hsl(22, 89%, 52%);
+  background-blend-mode: multiply;
+    
+
+}
+.middle_second_container{
+    width: 445px;
+    height: 480px;
+    border-radius:15px;
+    background-image: url('../assets/desktop/image-glass-and-keyboard.jpg');
+    background-size: cover;
+}
+.middle_header_text{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.middle_last_container{
+    margin: auto;
+    width:255px;
+    height: 265px;
+    justify-content: space-between;
+
+}
 
 
 .lower{
     display: flex;
+    margin-top: 15px;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 .lower_item{
-  width: 255; 
-  height: 323; 
+  width: 255px; 
+  height: 323px; 
+}
+.lower_header_text{
+    font-size: 24px;
+}
+.lower_icon_container{
+    width: 65px;
+    height: 65px;
+}
+.lower_icon{
+    background-color: #F16718;
+    padding:20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
 }
 .footer_container{
     text-align: center;
