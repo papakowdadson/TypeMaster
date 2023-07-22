@@ -1,0 +1,16 @@
+
+
+
+
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lower_item{
+  width: 255; 
+  height: 323; 
+}
+.footer_container{
+    text-align: center;
+}
