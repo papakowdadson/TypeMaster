@@ -201,7 +201,7 @@ border-radius:0px 15px 15px 0px ;
 
 }
 
-@media (max-width:375px){
+@media (max-width:540px){
     .nav_container{
         margin-top:10px ;
         margin-bottom: 20px;
