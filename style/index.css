@@ -87,6 +87,7 @@ border-radius:0px 15px 15px 0px ;
     margin-top: 10px;
     /* justify-content: center; */
     align-items: center;
+    flex-wrap: wrap;
 }
 .middle_first_container{
     width: 225px;
@@ -147,4 +148,118 @@ border-radius:0px 15px 15px 0px ;
 }
 .footer_container{
     text-align: center;
+}
+
+@media (max-width:768px){
+    .nav_container{
+        margin-top:10px ;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .layout{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_tag{
+        display: none;
+    }
+    .right_tag{
+        display: none;
+    }
+    .upper{
+        margin-left: 10px;
+    }
+    .type_keyboard{
+        width: 340px;
+        height: 480px;
+        border-radius:15px 0px 0px 15px;
+        background-image: url('../assets/desktop/image-keyboard.jpg');
+        background-size: cover;
+    }
+
+    .middle{
+        margin-left: 10px;
+        margin-right: 10px;
+        gap:35px;
+
+    }
+    .middle_last_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lower{
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+        justify-content: space-between;
+
+        /* flex-wrap: wrap;
+        display: flex; */
+    }
+
+}
+
+@media (max-width:375px){
+    .nav_container{
+        margin-top:10px ;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .layout{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_tag{
+        display: none;
+
+    }
+    .right_tag{
+        display: none;
+    }
+    .upper{
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-right: 0px;
+
+    }
+    .type_keyboard{
+        height: 331px;
+        width: 372px;
+    }
+    .middle{
+        margin-left: 0px;
+        gap: 10px;
+    }
+    .middle_first_container{
+        height: 193px;
+        width: 120px;
+        border-radius:0px 15px 15px 0px;
+
+    }
+    .middle_second_container{
+        width: 220px;
+        height: 193px;
+    }
+    .middle_last_container{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    
+    .lower_item{
+        margin: auto;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
 }
