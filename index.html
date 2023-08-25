@@ -7,12 +7,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="style/index.css">
 
-  <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+  <title>Papa Kow Dadson | Typemaster Landing Page</title>
+ 
 </head>
 <body>
   <nav class="nav_container">
     <img class="logo" src="assets/shared/logo.svg" alt="logo" >
-    <button class="btn nav_button">
+    <button class="btn nav_button" onclick='buttonalert()'>
       Pre-order now
     </button>
   </nav>
@@ -35,7 +36,7 @@
                mechanical typing experience.
             </p>
             <div class="type_order_row">
-              <button class="upper_button" type="submit">
+              <button class="upper_button" type="submit" onclick="buttonalert()">
                 Pre-order now
               </button>
               <p>
@@ -134,5 +135,10 @@
   <footer class="footer_container">  
     <p><span class="footer_title" >Typemaster 2021</span> | All Rights Reserved</p> 
   </footer>
+  <script>
+    function buttonalert(){
+      return alert('This is a landing page, All button have been disabled');
+    }
+  </script>
 </body>
 </html>
